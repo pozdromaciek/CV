@@ -70,6 +70,9 @@ div.exp, .work, .usage, .cert, .hobby, .lang, .about {
 	min-width: 300px;
 	line-height: 23px;
 }
+div.cert a {
+	color:white;
+}
 div.foot{
 	width: 48%;
 	padding: 1%;

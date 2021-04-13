@@ -24,24 +24,25 @@
   <meta name="theme-color" content="#38332d">
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed" rel="stylesheet">
-  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CV - Maciej Dubiel</title>
 </head>
 <body>
 
-  <div class="page_lang">
-    <a href="/index.html"><img src="img/pl.png" alt="Wersja Poslka"> </a>
-    <a href="/english.html"><img src="img/eng.png" alt="Wersja Angielska"></a>
+  <div class="page_lang" data-aos="fade-up">
+    <a href="index.html"><img src="img/pl.png" alt="Wersja Poslka"> </a>
+    <a href="english.html"><img src="img/eng.png" alt="Wersja Angielska"></a>
   </div>
-  <div class="photo"></div>
-  <div class="name">
+  <div class="photo" data-aos="zoom-in"></div>
+  <div class="name" data-aos="fade-up">
     Maciej Dubiel
   </div>
 
  
 
-  <div class="exp" id="exp">
+  <div class="exp" id="exp" data-aos="fade-up">
 
       <h2>Wykształcenie:</h2>
       <ul>
@@ -53,7 +54,7 @@
       </ul>
   </div>
 
-  <div class="work" id="work">
+  <div class="work" id="work" data-aos="fade-up">
     <h2>doświadczenie zawodowe:</h2>
     <ul>
       <li>październik 2016</li>
@@ -82,20 +83,23 @@
     </ul>
   </div>
 
-  <div class="usage" id="usage">
+  <div class="usage" id="usage" data-aos="fade-up">
     <h2>umiejętności:</h2>
     <ul>
       <li class="notb">Praca z systemami rodziny Linux i Widnows</li>
       <li class="notb">Adobe Photoshop</li>
       <li class="notb">Microsoft Office (Excel, Word, PowerPoint, Access)</li>
       <li class="notb">Podstawowa znajomość języka SQL</li>
+      <li class="notb">Podstawowa znajomość języka PHP</li>
       <li class="notb">Podstawowa znajomość języka JavaScript</li>
       <li class="notb">Podstawowa znajomość języka C/C++</li>
-      <li class="notb">Średniozaawansowana znajomość HTML i CSS</li>
+      <li class="notb">Podstawowa znajomość języka Java</li>
+      <li class="notb">Podstawowa znajomość języka skryptowego Python</li>
+      <li class="notb">Średniozaawansowana znajomość HTML i CSS z RWD</li>
     </ul>
   </div>
 
-  <div class="cert" id="cert">
+  <div class="cert" id="cert" data-aos="fade-up">
     <h2>świadectwa, certyfikaty, szkolenia:</h2>
     <ul>
       <li class="notb">Świadectwo Dojrzałości (2018)</li>
@@ -106,7 +110,7 @@
     </ul>
   </div>
 
-<div class="lang" id="lang">
+<div class="lang" id="lang" data-aos="fade-up">
     <h2>Języki obce:</h2>
     <ul>
       <li> Język angielski</li>
@@ -114,23 +118,34 @@
     </ul>
   </div>
 
-  <div class="hobby" id="hobby">
+  <div class="hobby" id="hobby" data-aos="fade-up">
     <h2>zainteresowania:</h2>
     <ul>
       <li class="notb">Motoryzacja</li>
       <li class="notb">Fotografia i postprodukcja</li>
       <li class="notb">Grafika komputerowa</li>
+
+    </ul>
+  </div>
+
+  <div class="cert" id="projects" data-aos="fade-up">
+    <h2>Portfolio:</h2>
+    <ul>
+      <li class="notb"><a href="https://broburgerzory.pl/" target="_blank">broburgerzory.pl</a></li>
+      <li class="notb"><a href="http://wheelburger.pl/" target="_blank">wheelburger.pl</a></li>
     </ul>
   </div>
 
 
-  <div class="foot">
-    Maciej Dubiel 2019 | Wszelkie prawa zastrzeżone
+  <div class="foot" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    Maciej Dubiel 2021 | Wszelkie prawa zastrzeżone
   </div>
 
   
 
-  
+  <script>
+  AOS.init();
+</script>
 
 </body>
 </html>
