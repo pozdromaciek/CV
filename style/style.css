@@ -1,0 +1,164 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: lightgray;
+	background-image:  url(../img/bg.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+}
+li {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h2 {
+	text-transform: uppercase;
+}
+
+div.photo {
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/avatar.png);
+	background-size: cover;
+	border-radius: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	z-index: 1;
+	position: relative;
+	transition: all 0.5s ease-out;
+}
+div.photo:hover{
+	width: 200px;
+	height: 200px;
+}
+
+div.name {
+	width: 46%;
+	height: auto;
+	margin-top: -75px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(125, 160, 145, 0.8);
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: calc(20px + 3vw);
+	font-weight: bolder;
+	cursor: default;
+	min-width: 300px;
+	padding: 2%;
+	padding-top: 100px;
+}
+
+
+
+div.exp, .work, .usage, .cert, .hobby, .lang, .about {
+	width: 46%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(0,0,0, 0.5);
+	color: white;
+	font-size: 20px;
+	padding: 2%;
+	cursor: default;
+	min-width: 300px;
+	line-height: 23px;
+}
+div.foot{
+	width: 48%;
+	padding: 1%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(125, 160, 145, 0.8);
+	margin-top: 10px;
+	min-width: 200px;
+}
+
+
+p.comment {
+	font-size: 1.085em;
+}
+li.notb {
+	font-weight: normal;
+	font-size: 18px;
+}
+div.page_lang {
+	position: absolute;
+	width: 100px;
+	height: 70px;
+	margin-top:0px; 
+	margin-left:30%;
+	z-index: 2;
+}
+
+.page_lang img {
+	height: 15px;
+	width: 25px;
+	float: left;
+	margin-right: 10px;
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+.page_lang img:hover {
+	opacity: 0.8;
+}
+
+/*Phone */
+@media screen and (max-width: 786px){
+div.exp, .work, .usage, .cert, .hobby, .lang{
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 94%;
+}
+div.name {
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 94%;
+}
+div.foot {
+	margin-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%; 
+	width: 96%;
+}
+div.page_lang {
+	margin: 0;
+	margin-left: 20px;
+}
+
+}
+
+@media screen and (max-width: 411px){
+	div.exp, .work, .usage, .cert, .hobby, .lang{
+	width: 96%;
+	margin-left: 0;
+	margin-right: 0;
+}
+div.name { 
+	width: 96%;
+	margin-left: 0;
+	margin-right: 0;
+}
+div.foot {
+	margin-bottom: 20px;
+	width: 98%;
+	margin-left: 0;
+	margin-right: 0;
+}
+div.page_lang {
+	margin: 0;
+	margin-left: 20px;
+}
+}
+
+
+
